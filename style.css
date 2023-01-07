@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&family=Prompt:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 1380px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: aliceblue;
+    font-size: 70%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 170%;
+    height: 7em;
+}
+
+.logo {
+    height: 12em;
+}
+
+.title {
+    border-left: 2px solid #FFFFFF;
+    padding-left: 1%;
+}
+
+body {
+    background: radial-gradient(102.7% 100.99% at 49.41% -5.27%, #0E49BB 0%, rgba(17, 48, 106, 0.967053) 10.52%, rgba(4, 23, 59, 0.953024) 57.21%, #031233 83.4%, rgba(1, 8, 23, 0.988287) 99.61%, rgba(0, 0, 0, 0) 100%, rgba(7, 46, 123, 0.940614) 100%, #FFFFFF 100%);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: flex-start;
+    padding-top: 3%;
+    gap: 2%;
+}
+
+
+
+.ilustration {
+    height: 30em;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    position: absolute;
+    right: 60%;
+    top: 25%;
+}
+
+.call {
+    text-align: right;
+    line-height: 150%;
+}
+
+.slogan {
+    color: #ffffffc0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 250%;
+    text-align: right;
+    padding-top: 5%;
+}
+
+.line-1 {
+    font-family: 'Prompt', sans-serif;
+    font-weight: 800;
+    font-size: 300%;
+    color: rgb(242, 245, 76);
+    animation: fadeInUp;
+    animation-duration: 3s;
+}
+
+.line-2 {
+    font-family: 'Prompt', sans-serif;
+    font-weight: 800;
+    font-size: 300%;
+    color: rgba(242, 245, 76, 0.712);
+    animation: fadeInUp;
+    animation-duration: 3s;
+}
+
+.line-3 {
+    font-family: 'Prompt', sans-serif;
+    font-weight: 800;
+    font-size: 300%;
+    color: rgba(242, 245, 76, 0.596);
+    animation: fadeInUp;
+    animation-duration: 3s;
+}
+
+.area-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.login {
+    background: rgba(17, 29, 52, 0.52);
+    box-sizing: border-box;
+    border: 2px solid #0E49BB;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 8%;
+    padding-right: 12%;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 200%;
+}
+
+.icon {
+    width: 7em;
+    padding-left: 40%;
+}
+
+.second-title {
+    font-family: 'Prompt', sans-serif;
+    font-weight: 800px;
+    color: rgba(248, 248, 248, 0.897);
+    font-size: 300%;
+    padding-bottom: 5%;
+    padding-top: none;
+    padding-left: 9%;
+    text-align: center;
+}
+
+.text {
+    padding-top: 8%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 90%;
+    padding-left: 12%;
+    text-align: center;
+    line-height: normal;
+}
+
+.login  input{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.897);
+    color: rgb(5, 2, 41);
+    border: none;
+    border-radius: 7px;
+    width: 100%;
+    height: 3em;
+    outline:none;
+    margin-left: 8%;
+    margin-top: 2%;
+    padding-left: 5%;
+}
+
+form [type="submit"]{
+    background-color: #0E49BB;
+    color: aliceblue;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    padding-right: 4%;
+}
+
+
+
